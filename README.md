@@ -1,4 +1,4 @@
-<h1 align="center"> 🚀 Portfólio Pessoal </h1>
+<h1 align="center"> 🚀 Calculadora Simples </h1>
 
 ## ✍️ Descrição
 Simples Calculadora criada com Vanilla "Javascript Puro"
