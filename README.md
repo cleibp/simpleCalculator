@@ -25,10 +25,15 @@ Simples Calculadora criada com Vanilla "Javascript Puro"
 ```sh
 .
 ├── README.md
+├── index.html
+└── js
+    ├── script.js
+└── css
+    ├── style.css
 ```
 
 ## 👋🏽 DEMO
-[Pages](https://cleibp.github.io/simpleCalculator/) 
+[Publicação em Github Pages](https://cleibp.github.io/simpleCalculator/) 
 
 ## Contatos
 
