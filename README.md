@@ -27,9 +27,9 @@ Simples Calculadora criada com Vanilla "Javascript Puro"
 ├── README.md
 ├── index.html
 └── js
-    ├── script.js
+    └── script.js
 └── css
-    ├── style.css
+    └── style.css
 ```
 
 ## 👋🏽 DEMO
