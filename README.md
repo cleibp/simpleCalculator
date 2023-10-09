@@ -33,7 +33,10 @@ Simples Calculadora criada com Vanilla "Javascript Puro"
 ```
 
 ## 👋🏽 DEMO
-[Publicação em Github Pages](https://cleibp.github.io/simpleCalculator/) 
+[Publicação em Github Pages](https://cleibp.github.io/simpleCalculator/)  <br>
+
+[Publicação em Codepen](https://codepen.io/cleibp/pen/oNMdwzO) 
+
 
 ## Contatos
 
