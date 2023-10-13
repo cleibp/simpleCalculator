@@ -6,29 +6,24 @@
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     user-select: none;
-}
-
-html {
+  }
+  
+  html {
     height: 100%;
-    background: #603813;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #603813);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #603813);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-h1 {
-    margin: .5em 0;
+    background: linear-gradient(to right, #26d0ce, #1a2980);
+  }
+  
+  h1 {
+    margin: 0.5em 0;
     font-size: calc(3vw + 2rem);
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: -.05em;
+    letter-spacing: -0.05em;
     color: white;
-}
-
-#calculator {
+  }
+  
+  #calculator {
     width: 325px;
     height: auto;
     overflow: hidden;
@@ -38,14 +33,14 @@ h1 {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 3px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
-}
-
-.top span.clear {
+  }
+  
+  .top span.clear {
     position: absolute;
     z-index: 6;
-}
-
-.top .screen {
+  }
+  
+  .top .screen {
     height: 80px;
     width: 100%;
     position: absolute;
@@ -60,15 +55,15 @@ h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     text-align: right;
     letter-spacing: 1px;
-}
-
-.keys,
-.top {
+  }
+  
+  .keys,
+  .top {
     overflow: hidden;
-}
-
-.keys span,
-.top span.clear {
+  }
+  
+  .keys span,
+  .top span.clear {
     float: left;
     position: relative;
     top: 0;
@@ -84,52 +79,53 @@ h1 {
     text-align: center;
     user-select: none;
     transition: all 0.2s ease;
-}
-
-.keys span.operator {
+  }
+  
+  .keys span.operator {
     background: rgba(250, 100, 0, 0.3);
     margin-right: 0;
-}
-
-.keys span.eval {
+  }
+  
+  .keys span.eval {
     color: #888e5f;
-}
-
-.top span.clear {
+  }
+  
+  .top span.clear {
     background: transparent;
     box-shadow: none;
     color: #aaa;
     width: 56px;
-    left: 5px
-}
-
-.keys span:hover {
+    left: 5px;
+  }
+  
+  .keys span:hover {
     background: rgba(255, 255, 255, 0.8);
     color: #333;
-}
-
-.keys span.eval:hover {
+  }
+  
+  .keys span.eval:hover {
     background: #abb850;
     color: #ffffff;
-}
-
-.top span.clear:hover {
+  }
+  
+  .top span.clear:hover {
     border-radius: 190px;
     background: rgba(0, 0, 0, 0.1);
     color: white;
-}
-
-.keys span:active {
+  }
+  
+  .keys span:active {
     box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
     top: 4px;
-}
-
-.keys span.eval:active {
+  }
+  
+  .keys span.eval:active {
     box-shadow: 0px 0px #717a33;
     top: 4px;
-}
-
-.top span.clear:active {
+  }
+  
+  .top span.clear:active {
     top: 4px;
     box-shadow: 0px 0px #d3545d;
-}
+  }
+  
